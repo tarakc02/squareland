@@ -70,7 +70,8 @@ gen_truth <- function(n_centers = args$n_centers,
                                gen_incidents(),
                                simplify = FALSE)) %>%
         unnest(dat) %>%
-        mutate(cell_x = grid_cut(x), cell_y = grid_cut(y))
+        mutate(cell_x = grid_cut(x), cell_y = grid_cut(y)) %>%
+        mutate(id = seq_len(nrow(.)))
 }
 
 write_feather(gen_truth(), args$output)
