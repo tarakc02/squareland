@@ -3,7 +3,7 @@
 # Maintainers: TS
 # Copyright:   2019, HRDAG, GPL v2 or later
 # =========================================
-# /Users/tshah/git/squareland/generate-reports/src/observe.R
+# squareland/generate-reports/src/observe.R
 
 library(pacman)
 pacman::p_load("argparse", "feather",

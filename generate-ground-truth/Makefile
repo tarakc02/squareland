@@ -3,7 +3,7 @@
 # Maintainers: TS
 # Copyright:   2019, HRDAG, GPL v2 or later
 # =========================================
-# /Users/tshah/git/squareland/generate-ground-truth/Makefile
+# squareland/generate-ground-truth/Makefile
 
 .PHONY: all clean
 

@@ -3,7 +3,7 @@
 # Maintainers: TS
 # Copyright:   2019, HRDAG, GPL v2 or later
 # =========================================
-# /Users/tshah/git/squareland/generate-ground-truth/src/generate-truth.R
+# squareland/generate-ground-truth/src/generate-truth.R
 
 library(pacman)
 pacman::p_load("MASS", "dplyr", "tidyr", "argparse", "feather")
