@@ -22,6 +22,6 @@ output/reports.feather: \
 			--input=$(TRUTH) \
 			--seed=202070170 \
 			--nsource=4 \
-			--reports=output/reports.feather
+			--reports=$@
 
 # done.
